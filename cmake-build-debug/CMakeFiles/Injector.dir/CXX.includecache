@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Header.h
+iostream
+-
+Windows.h
+-
+iostream
+-
+
+D:/Code/Injector/src/CheatInjector.cpp
+Header.h
+D:/Code/Injector/src/Header.h
+
